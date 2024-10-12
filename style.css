@@ -185,3 +185,44 @@ p {
     height: 240px;
     margin-left: 50px;
 }
+
+
+
+#Inspiration-container {
+    width: 1140px;
+    height: 775px;
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.inspiration-wrapper {
+    width: 852px;
+    height: 113px;
+    width: 852px;
+    height: 113px;
+    margin: 48px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.youtube-link {
+    width: 1076px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+iframe{
+    border-radius: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 6px 0px;
+    padding: 20px;
+}
