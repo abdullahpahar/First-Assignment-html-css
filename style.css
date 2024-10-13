@@ -8,6 +8,7 @@
     font-family: "Azeret Mono", monospace;
 }
 
+
 /* Reuseable code */
 h1 {
     color: rgb(13, 19, 33);
@@ -35,6 +36,7 @@ p {
     font-weight: 600;
     cursor: pointer;
 }
+
 
 /* Start Header Section */
 #banner-container {
@@ -72,6 +74,7 @@ p {
     font-weight: 400;
     margin: 30px 0px;
 }
+
 
 /* Why web development Part Start */
 #why-web-dev-container {
@@ -190,8 +193,9 @@ p {
     margin-left: 50px;
 }
 
-/* MY Inspiration Section Start */
 
+
+/* MY Inspiration Section Start */
 #Inspiration-container {
     width: 1140px;
     height: 775px;
@@ -234,6 +238,7 @@ iframe {
 
 
 
+/* My Target section Start */
 .target-wrapper {
     width: 1140px;
     height: 600px;
@@ -292,4 +297,138 @@ iframe {
     background-color: rgba(255, 223, 0, 0.05);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
+}
+
+.text-area {
+    width: 548px;
+    height: 57px;
+}
+
+
+
+/* Start Support Section */
+#support-section {
+    width: 1140px;
+    height: 313px;
+    border: 1px solid salmon;
+    background-image: url("img/handshake.jpg");
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url("img/handshake.jpg");
+}
+
+.support-wrapper {
+    width: 1044px;
+    height: 250px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 50px;
+    padding: 20px 10px;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-area {
+    width: 550px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    padding: 13px 20px;
+}
+
+.input [text] {
+    color: rgba(33, 22, 13, 0.4);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-btn {
+    width: 120px;
+    height: 45px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.support-wrapper p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-wrapper h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+/* Start footer section */
+#footer-container {
+    width: 1900px;
+   height: auto;
+    background-color: rgb(160, 162, 167);
+    padding: 30px;
+}
+
+.footer-wrapper {
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.footer-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    line-height: 20px;
+}
+ul{
+list-style: none;
+}
+li{
+    line-height: 25px;
+    padding: 5px 0px;
+}
+img{
+    margin: 10px 15px;
+}
+.footer-last{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px ;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
 }
